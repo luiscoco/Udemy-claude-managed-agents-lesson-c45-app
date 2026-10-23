@@ -1,0 +1,28 @@
+{
+  "source": "live-provider-commentary",
+  "sessionId": "sesn_01K6Nu2Yafy1gMjJyMp5NiiE",
+  "answer": "This is a local teaching experiment about **prompt injection and red teaming**, where a crafted payload attempts to manipulate an AI system into crossing its capability boundaries. The experiment recorded that the host correctly rejected the requested action, logging a keyword signal without applying any effect. It serves as a demonstration that retrieved or supplied text should be treated as data, not as instructions that override host behavior.",
+  "stopReason": "end_turn",
+  "eventTypes": [
+    "session.status_running",
+    "session.thread_status_running",
+    "user.message",
+    "span.model_request_start",
+    "agent.message",
+    "span.model_request_end",
+    "session.thread_status_idle",
+    "session.usage",
+    "session.status_idle"
+  ],
+  "requestUsage": [
+    {
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "input_tokens": 589,
+      "output_tokens": 81,
+      "speed": "standard"
+    }
+  ],
+  "experimentHash": "ad2f79e56d5d37c3039cfef69c0a9a450048bd213bcc866a97a561be03212209",
+  "scope": "A real text-only model response about the local experiment. External integrations and the experiment's correctness are not certified by this response."
+}
